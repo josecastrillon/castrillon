@@ -22,6 +22,7 @@ public class PruebaSpring {
 		System.out.println("EL factor es : "+ castrillonBean.getFact());
 		System.out.println("EL numero es : "+ castrillonBean.getNumero());
 		System.out.println("El factorial de 8 es: "+ castrillonBean.getGenerarFactorial());
+		System.out.println(castrillonBean.getEsPar());
 		
 	}
 

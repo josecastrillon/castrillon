@@ -26,5 +26,12 @@ public class BeanFactorial {
 		}
 		return getFact();
 	}
+	
+	public String getEsPar(){
+		if(this.getGenerarFactorial()%2==0){
+			return "Es Par";
+		}
+		return "No es Par";	
+	}
 
 }
